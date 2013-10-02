@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>CutterKnife</title>
+  </head>
+  <body>
+    <form action="/parse" method="post">
+      <div>
+          <label>PATH</label>: <input type="text" name="path" size="80" value="<%= @path %>" />
+      </div>
+      <div><%=h @content || "" %></div>
+      <div><textarea name="html" rows="30" cols="80"><%= @html %></textarea></div>
+      <div><input type="submit" name="button" value="Parse" /></div>
+    </form>
+  </body>
+</html>
