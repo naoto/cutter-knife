@@ -1,24 +1,22 @@
 # Cutter::Knife
 
-TODO: Write a gem description
+Nokogiri Perser Checker - http://cutter-knife.herokuapp.com
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'cutter-knife'
+    $ git clone http://github.com/naoto/cutter-knife.git
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cutter-knife
+    $ cd cutter-knife
+    $ bundle install
+    $ bundle exec ruby web.rb
 
 ## Usage
 
-TODO: Write usage instructions here
+Path to CSS Path or xpath
 
 ## Contributing
 
